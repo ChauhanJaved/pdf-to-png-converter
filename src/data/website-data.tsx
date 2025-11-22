@@ -3,6 +3,7 @@
 import { Metadata } from "next";
 import { ReactNode } from "react";
 
+export const websiteURL: string = "https://www.pdf-to-png-converter.com";
 export const headerCompanyName: string = "FrameworkTeam";
 export const companyName: string = "FrameworkTeam Softwares";
 export const email: string = "support@frameworkteam.com";
@@ -96,14 +97,14 @@ export type ProductSubTitles =
   (typeof productSubTitles)[keyof typeof productSubTitles];
 
 export const productWebsites = {
-  PDFtoPNGConverter: "https://www.pdf-to-png-converter.com",
+  PDFtoPNGConverter: "https://www.pdf-tiff-tools.com/pdf-to-png-converter",
 } as const;
 export type ProductWebsite =
   (typeof productWebsites)[keyof typeof productWebsites];
 
 export const productDownloadLinks = {
   PDFtoPNGConverter:
-    "https://pdf-to-png-converter.com/downloads/pdf-to-png-converter-setup.exe",
+    "https://www.pdf-to-png-converter.com/downloads/pdf-to-png-converter-setup.exe",
 } as const;
 export type ProductDownloadLinks =
   (typeof productDownloadLinks)[keyof typeof productDownloadLinks];
